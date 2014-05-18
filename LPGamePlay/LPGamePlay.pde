@@ -1,3 +1,16 @@
+
+/*
+---------------------------------------------------------------------------------
+TurningTriangle
+Projet ISN 2014 ALGUIRIEV Adam - Bay-Eymère Argann - Toulemonde Blanche
+Adapation du gameplay sur LeapMotion par ALGUIRIEV Adam
+
+matériel utilisé    : LeapMotion (PC)
+librairie utilisée  : LeapMotion for Processing
+EDI                 : Processing 2.1
+---------------------------------------------------------------------------------
+*/
+
 import de.voidplus.leapmotion.*;
 import development.*;
 
@@ -57,7 +70,7 @@ void IncorrectHand(){
   if (hands_count > 1){
     text("Veuillez retirer une main.", 50, 50);
   } else {
-    text("Erreur, retirez vos mains de la zone de détection puis replacez les.", 50, 50);
+    text("Erreur, retirez vos mains de la zone de détection puis replacez en un.", 50, 50);
   }
   
 }
