@@ -1,5 +1,5 @@
 
-//Traitement du nomrbe de mains détectées
+//Traitement du nombre de mains détectées
 void IncorrectHand(){
   
   fill(255,50,145);
