@@ -25,6 +25,7 @@ void setup(){
   size(800, 500, P3D);
   leap = new LeapMotion(this);
   noStroke();
+  println("Projet ISN 2014 : https://github.com/TurningTriangleGAME/Game");
   
 }
 
@@ -49,29 +50,3 @@ void draw(){
 }
 
 }
-
-void move(){
-  
-  fill(255,50,145);
-  rect(pos_x, pos_y, 30, 30);
-  
-}
-
-void getHandPos(Hand hand){
-  
-  hp = hand.getPosition();
-  
-}
-
-void IncorrectHand(){
-  
-  fill(255,50,145);
-  
-  if (hands_count > 1){
-    text("Veuillez retirer une main.", 50, 50);
-  } else {
-    text("Erreur, retirez vos mains de la zone de détection puis replacez en un.", 50, 50);
-  }
-  
-}
-
